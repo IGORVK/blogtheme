@@ -1,0 +1,103 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.half {
+  height: 707.5px; }
+
+.half1 {
+  height: 707.5px; }
+
+.half2 {
+  height: 707.5px; }
+
+.first-class, .second-class {
+  color: #F00; }
+
+.second-class {
+  border: 1px #ba281e; }
+
+.border-blue {
+  border-color: blue;
+  border-width: 3px; }
+
+.border-red {
+  border-color: red;
+  border-width: 3px; }
+
+a {
+  font-family: sans-serif;
+  color: #F00; }
+  a:hover, a:focus, a:active {
+    color: blue; }
+  a.link-class {
+    color: green; }
+    a.link-class:hover, a.link-class:focus, a.link-class:active {
+      color: blue; }
+
+.translateX {
+  -webkit-transform: translateX(15px);
+  -moz-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  -o-transform: translateX(15px);
+  transform: translateX(15px); }
+
+.transformX {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px); }
+
+.box1 {
+  -webkit-transition: 320ms ease;
+  -moz-transition: 320ms ease;
+  -ms-transition: 320ms ease;
+  -o-transition: 320ms ease;
+  transition: 320ms ease; }
+
+.box2 {
+  -webkit-transition: 320ms ease;
+  -moz-transition: 320ms ease;
+  -ms-transition: 320ms ease;
+  -o-transition: 320ms ease;
+  transition: 320ms ease; }
+
+.box3 {
+  -webkit-transition: 500ms ease;
+  -moz-transition: 500ms ease;
+  -ms-transition: 500ms ease;
+  -o-transition: 500ms ease;
+  transition: 500ms ease; }
+
+.text-white {
+  color: #fff; }
+
+.background-white {
+  background-color: #fff; }
+
+.text-black {
+  color: #000; }
+
+.background-black {
+  background-color: #000; }
+
+.text-red {
+  color: #F00; }
+
+.background-red {
+  background-color: #F00; }
+
+.text-primary {
+  color: #CCC; }
+
+.background-primary {
+  background-color: #CCC; }
+
+.text-secondary {
+  color: #333; }
+
+.background-secondary {
+  background-color: #333; }
+
+/*# sourceMappingURL=example.css.map */

@@ -1,0 +1,18 @@
+#wpcontent{
+  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', Verdana, Arial, sans-serif;
+  font-weight: 300;
+}
+h1, h2, h3, h4, h5,.form-table th, .form-wrap label { font-weight: 500;}
+
+.fpr_theme-general-form,
+.fpr_theme-sidebar-preview { display: inline-block; float: left;}
+
+.fpr_theme-sidebar-preview{
+  width: 280px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.fpr_theme-sidebar {display: block; text-align: center;}

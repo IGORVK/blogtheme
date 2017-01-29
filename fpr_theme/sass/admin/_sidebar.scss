@@ -1,0 +1,27 @@
+/* admin declared classes */
+
+h1.fpr_theme-username,
+h2.fpr_theme-description {font-weight: 100; color: #fff;}
+h1.fpr_theme-username {font-size: 24px; margin: 0 0 10px;}
+h2.fpr_theme-description {font-size: 13px; margin: 0 0 20px;}
+
+
+.fpr_theme_icon_sidebar{ color: rgb(255,255,255); margin: 0 2px; }
+.fpr_theme_icon_sidebar:before{ width: 22px; height: 22px; font-size: 22px; }
+.fpr_theme_icon_sidebar__facebook{}
+
+.fpr_theme_icon_button:before {vertical-align: middle; margin-top: -2px; margin-left: -6px;}
+.fpr_theme_icon_button_image:before{vertical-align: middle; margin-top: -2px; margin-left: -6px; margin-right: 3px;}
+
+.image-container { display: block; width: 100%; overflow: hidden; text-align: center; }
+.profile-picture {
+  width: 122px;
+  height: 122px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 20px auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

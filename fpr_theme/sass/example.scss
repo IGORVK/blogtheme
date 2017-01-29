@@ -1,0 +1,154 @@
+$primary-color: #F00;
+$border-width: 3px;
+
+$container: 1440px;
+$padding: 25px;
+
+@import 'partials/_reset-example';
+@import 'partials/_mixins-example';
+
+@function half-height($first, $second){
+  @return $container / $first - $padding / $second;
+}
+
+.half {
+  height: half-height(2, 2);
+}
+.half1 {
+  height: half-height(2, 2);;
+}
+.half2 {
+  height: half-height(2, 2);;
+}
+.first-class{
+  color: $primary-color;
+}
+
+.second-class{
+  @extend .first-class;
+  border: 1px #ba281e;
+}
+
+.border-blue{
+  border-color: blue;
+  border-width: $border-width;
+
+}
+
+.border-red{
+  border-color: red;
+  border-width: $border-width;
+}
+
+//a{ font-family: sans-serif; color: $primary-color;}
+
+//a:hover, a:focus, a:visited{ color:blue;}
+//a.link-class{ color: green; }
+//a.link-class:hover,
+//a.link-class:focus,
+//a.link-class:visited{ color:black;}
+
+a{ font-family: sans-serif; color: $primary-color;
+  &:hover,
+  &:focus,
+  &:active { color: blue;}
+  &.link-class { color: green;
+    &:hover,
+    &:focus,
+    &:active { color: blue;}}
+
+}
+
+
+
+.translateX{
+  @include translateX(15px);
+}
+
+.transformX{
+  @include translateX(10px);
+}
+
+
+.box1 {
+  @include animate-time;
+}
+.box2 {
+  @include animate-time;
+}
+.box3 {
+  @include animate-time(500ms);
+}
+
+
+//FOR loop
+//@for $var from <start> through <end>
+
+//@for $space from 1 through 6
+//{
+//
+//    $width: percentage( 1 / $space );
+//
+//
+//    .pt-#{$space}
+//    {
+//        padding-top: 10px * $space;
+//    }
+//    .pb-#{$space}
+//    {
+//        padding-top: $width;
+//    }
+//}
+
+//WHILE loop
+
+//@while $var something int
+//$num: 1;
+//@while  $num < 7{
+//    $width: percentage( 1 / $num );
+//
+//
+//    .column-#{$num}
+//    {
+//        padding-top: $width;
+//    }
+//
+//    $num: $num + 1;
+//}
+//
+
+//EACH loop
+//@each key, value in array {}
+
+$white: #fff;
+$black: #000;
+$red: #F00;
+$primary: #CCC;
+$secondary: #333;
+
+$colors: (
+        'white': $white,
+        'black': $black,
+        'red': $red,
+        'primary': $primary,
+        'secondary': $secondary
+);
+
+@each $colour, $hex in $colors
+{
+  //.text-white { colour: #fff; }
+
+  .text-#{$colour}
+  {
+    color: $hex;
+  }
+  .background-#{$colour}
+  {
+    background-color: $hex;
+  }
+}
+
+
+
+
+

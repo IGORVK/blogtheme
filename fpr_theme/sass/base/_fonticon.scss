@@ -1,0 +1,170 @@
+/*
+  @package fpr_theme
+*/
+
+/*
+  Font Icon
+  ==========================================================================
+*/
+
+/*
+@font-face {
+  font-family: 'fpr_theme-icon';
+  src:  url('../fonts/fpr_theme-icon.eot?1wdk6t');
+  src:  url('../fonts/fpr_theme-icon.eot?1wdk6t#iefix') format('embedded-opentype'),
+  url('../fonts/fpr_theme-icon.ttf?1wdk6t') format('truetype'),
+  url('../fonts/fpr_theme-icon.woff?1wdk6t') format('woff'),
+  url('../fonts/fpr_theme-icon.svg?1wdk6t#fpr_theme-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fpr_theme-icon {
+  !* use !important to prevent issues with browser extensions that change fonts *!
+  font-family: $icon-font !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  !* Better Font Rendering =========== *!
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fpr_theme-search:before {
+  content: "\e90b";
+}
+.fpr_theme-share:before {
+  content: "\e90c";
+}
+.fpr_theme-tag:before {
+  content: "\e90d";
+}
+.fpr_theme-video:before {
+  content: "\e90e";
+}
+.fpr_theme-audio:before {
+  content: "\e900";
+}
+.fpr_theme-chevron-left:before {
+  content: "\e901";
+}
+.fpr_theme-chevron-right:before {
+  content: "\e902";
+}
+.fpr_theme-close:before {
+  content: "\e903";
+}
+.fpr_theme-comment:before {
+  content: "\e904";
+}
+.fpr_theme-link:before {
+  content: "\e905";
+}
+.fpr_theme-loading:before {
+  content: "\e906";
+}
+.fpr_theme-logo:before {
+  content: "\e907";
+}
+.fpr_theme-menu:before {
+  content: "\e908";
+}
+.fpr_theme-pencil:before {
+  content: "\e909";
+}
+.fpr_theme-pics:before {
+  content: "\e90a";
+}*/
+@font-face {
+  font-family: 'fpr_theme-icon';
+  src:  url('../fonts/fpr_theme-icon.eot?685i2r');
+  src:  url('../fonts/fpr_theme-icon.eot?685i2r#iefix') format('embedded-opentype'),
+  url('../fonts/fpr_theme-icon.ttf?685i2r') format('truetype'),
+  url('../fonts/fpr_theme-icon.woff?685i2r') format('woff'),
+  url('../fonts/fpr_theme-icon.svg?685i2r#fpr_theme-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fpr_theme-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fpr_theme-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fpr_theme-google-plus:before {
+  content: "\ea8b";
+}
+.fpr_theme-facebook:before {
+  content: "\ea90";
+}
+.fpr_theme-twitter:before {
+  content: "\ea96";
+}
+.fpr_theme-google-plus2:before {
+  content: "\ea8c";
+}
+.fpr_theme-facebook2:before {
+  content: "\ea91";
+}
+.fpr_theme-twitter2:before {
+  content: "\ea97";
+}
+.fpr_theme-search:before {
+  content: "\e90b";
+}
+.fpr_theme-share:before {
+  content: "\e90c";
+}
+.fpr_theme-tag:before {
+  content: "\e90d";
+}
+.fpr_theme-video:before {
+  content: "\e90e";
+}
+.fpr_theme-audio:before {
+  content: "\e900";
+}
+.fpr_theme-chevron-left:before {
+  content: "\e901";
+}
+.fpr_theme-chevron-right:before {
+  content: "\e902";
+}
+.fpr_theme-close:before {
+  content: "\e903";
+}
+.fpr_theme-comment:before {
+  content: "\e904";
+}
+.fpr_theme-link:before {
+  content: "\e905";
+}
+.fpr_theme-loading:before {
+  content: "\e906";
+}
+.fpr_theme-logo:before {
+  content: "\e907";
+}
+.fpr_theme-menu:before {
+  content: "\e908";
+}
+.fpr_theme-pencil:before {
+  content: "\e909";
+}
+.fpr_theme-pics:before {
+  content: "\e90a";
+}
